@@ -1,0 +1,84 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-30deg, #21e2d2, #10c528, #db71ca, #aa6cf0);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.headline {
+    
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    text-decoration: underline;
+    background-color: rgb(221, 84, 20);
+    text-shadow: 2px 2px 5px gray;
+    
+    
+}
+
+.description {
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    background-color: orange;
+    text-shadow: 2px 2px 5px gray;
+
+}
+
+.inside {
+    list-style-position: inside;
+    list-style: none
+  
+}
+
+.button {
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 35px;
+    background-color: rgb(73, 181, 231);
+    color: rgb(95, 13, 88);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid rgb(188, 90, 197);
+}
+
+/* a:active after a:hover, after a:link and a:visited */
+
+.button:hover {
+    background-color: rgb(32, 202, 123);
+    color: rgb(219, 16, 43);
+}
+
+.button:active {
+    background-color: rgb(43, 235, 150);
+    transform: translateY(4px);
+}
+
+img {
+    border: 4px solid rgb(88, 75, 199);
+    animation: gardi 15s infinite;
+}
+
+@keyframes gardi {
+   50% {border-color: #23c7c7;}
+   
+}
