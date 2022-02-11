@@ -1,6 +1,6 @@
 body {
     background-color: rgb(248, 193, 74);
-    background-image: url("/home/bob/repos/odin-recipes/images/pexels-travis-rupert-1032650.jpg");
+    background-image: url("../images/pexels-travis-rupert-1032650.jpg");
     background-size: auto;
     background-blend-mode: color;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
